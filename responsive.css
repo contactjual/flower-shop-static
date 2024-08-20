@@ -1,0 +1,69 @@
+/* laptop-view */
+@media screen and (max-width: 1700px) {
+    p {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    main h1, footer h1 {
+        font-size: 26px;
+    }
+
+    /* header-banner */
+    header .flex-style {
+        height: 450px;
+    }
+    header h1 {
+        font-size: 37px;
+        line-height: 45px;
+    } 
+    header .flower-area img {
+        width: 320px;
+    }
+
+    /* Our Featured Flowers */
+    .featured-flowers .flower-tree .bgim {
+        height: 300px;
+        width: 20vw;
+    }
+    .featured-flowers .flower-tree div a {
+        font-size: 15px;
+    }
+    .featured-flowers .flower-tree .first-tree div {
+        background-size: 180px auto;
+    }
+    .featured-flowers .flower-tree .second-tree div {
+        background-size: 230px auto;
+    }
+    .featured-flowers .flower-tree .third-tree div {
+        background-size: 200px auto;
+    }
+}    
+
+
+
+/* tablet-view */
+@media screen and (max-width: 1000px) {
+    .container {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    p {
+        font-size: 16px;
+        line-height: 23px;
+    }
+
+    /* Our Featured Flowers */
+    .featured-flowers .flower-tree .bgim {
+        height: 220px;
+        width: 27vw;
+    }
+    .featured-flowers .flower-tree .first-tree div {
+        background-size: 130px auto;
+    }
+    .featured-flowers .flower-tree .second-tree div {
+        background-size: 170px auto;
+    }
+    .featured-flowers .flower-tree .third-tree div {
+        background-size: 150px auto;
+    }
+}

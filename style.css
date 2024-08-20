@@ -1,0 +1,272 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Lato', sans-serif;
+}
+.container {
+    max-width: 70%;
+    margin: 0 auto;
+}
+p {
+    font-size: 20px;
+    line-height: 33px;
+}
+main h1, footer h1 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+button {
+    background-color: #E55473;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    padding: 12px 20px;
+    color: white;
+    cursor: pointer;
+}
+
+
+/* header-banner */
+header .banner-area {
+    background-color: rgba(229, 84, 115, 0.10);
+}
+header .flex-style {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    height: 650px;
+}
+header h1 {
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 70px;
+    margin-bottom: 20px;
+}
+header button {
+    margin-top: 20px;
+}
+header .text-area {
+    flex-basis: 47%;
+    max-width: 700px;
+}
+header .flower-area img {
+    width: 470px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+
+/* Our Featured Flowers */
+main .featured-flowers .text-area {
+    max-width: 600px;
+    margin: 150px auto 100px;
+    text-align: center;
+}
+.featured-flowers .flower-tree {
+    display: flex;
+    justify-content: space-between;
+}
+.featured-flowers .flower-tree .bgim {
+    height: 430px;
+    width: 380px;
+    border-radius: 300px 300px 0 0;
+    margin-bottom: 20px;
+}
+.featured-flowers .flower-tree .first-tree div {
+    background-image: url(img/pngwing\ 6.png);
+    background-color: rgba(167, 33, 98, 0.15);
+    background-repeat: no-repeat;
+    background-size: 235px auto;
+    background-position: bottom center;
+}
+.featured-flowers .flower-tree .second-tree div {
+    background-image: url(img/pngwing\ 5.png);
+    background-color: rgba(167, 33, 98, 0.15);
+    background-repeat: no-repeat;
+    background-size: 300 auto;
+    background-position:center;
+}
+.featured-flowers .flower-tree .third-tree div {
+    background-image: url(img/pngwing\ 7.png);
+    background-color: rgba(167, 33, 98, 0.15);
+    background-repeat: no-repeat;
+    background-size: 235px auto;
+    background-position: bottom center;
+}
+.featured-flowers .flower-tree div a {
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+}
+.featured-flowers .flower-tree div {
+    text-align: center;
+}
+
+
+
+/* Customer Support */
+main .customer-support {
+    display: flex;
+    justify-content: space-evenly;
+    background: rgba(39, 39, 39, 0.05);
+    padding: 60px 0 85px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 100px 0;
+}
+main .customer-support img {
+    width: 55px;
+    margin-bottom: 10px;
+}
+main .customer-support p {
+    font-size: 17px;
+}
+
+
+/* Best Sells Flowers */
+main .best-sells-flowers .text-area {
+    text-align: center;
+} 
+main .best-sells-flowers .cart {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    margin-top: 50px;
+    text-align: center;
+}
+main .best-sells-flowers .cart img {
+    width: 100%;
+}
+main .best-sells-flowers a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 800;
+    margin: 18px 0 0 0;
+}
+main .best-sells-flowers button {
+    font-size: 13px;
+    padding: 10px;
+}
+main .best-sells-flowers .cart .flw-card {
+    box-shadow: 0px 2px 5px #f2f2f2;
+    padding: 0 0 35px 0;
+    border-radius: 5px;
+}
+main .best-sells-flowers .cart .flw-card:hover {
+    box-shadow: 0px 2px 5px #ebebeb;
+}
+
+
+/* Hot Deal */
+main .hot-deal {
+    display: flex;
+    height: 430px;
+    align-items: center;
+    justify-content: space-around;
+}
+main .back-color {
+    background-color: rgba(229, 84, 115, 0.05);
+    margin: 150px 0;
+}
+main .hot-deal .text-area {
+    flex-basis: 55%;
+    text-align: center;
+}
+main .hot-deal img {
+    width: 70%;
+}
+main .hot-deal button {
+    margin-top: 20px;
+}
+
+
+/* Instagram */
+main .instagram .text-area {
+    text-align: center;
+    width: 55%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+main .instagram .beautiful-img {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+main .instagram .beautiful-img img {
+    max-width: 300px;
+    width: 17vw;
+}
+
+
+
+/* Get The Latest Deals */
+main .latest-deals {
+    background-image: url(img/Rectangle\ 9.png);
+    background-size: cover;
+    max-height: 380px;
+    min-height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+    margin: 100px 0 170px 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+main .latest-deals form input {
+    width: 400px;
+    height: 46px;
+    padding: 11px;
+    font-size: 16px;
+    border-bottom: 5px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 25px;
+}
+
+
+
+/* footer */
+footer {
+    background-color: black;
+    padding: 150px 0;
+
+}
+footer .align-center-text {
+    color: rgb(233, 233, 233);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+footer .footer-text {
+    max-width: 650px;
+}
+footer .footer-text p {
+    margin: 30px;
+    font-size: 20px;
+}
+footer .flw {
+    color: #E55473;
+}
+footer .shp {
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+/* https://sohel5g.github.io/flower-shop/ */
