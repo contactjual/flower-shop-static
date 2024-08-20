@@ -87,14 +87,14 @@ main .featured-flowers .text-area {
 }
 .featured-flowers .flower-tree .second-tree div {
     background-image: url(img/pngwing\ 5.png);
-    background-color: rgba(167, 33, 98, 0.15);
+    background-color: rgba(5, 151, 160, 0.15);
     background-repeat: no-repeat;
     background-size: 300 auto;
     background-position:center;
 }
 .featured-flowers .flower-tree .third-tree div {
     background-image: url(img/pngwing\ 7.png);
-    background-color: rgba(167, 33, 98, 0.15);
+    background-color: rgba(71, 125, 17, 0.15);
     background-repeat: no-repeat;
     background-size: 235px auto;
     background-position: bottom center;
