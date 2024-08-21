@@ -142,6 +142,7 @@ main .best-sells-flowers .cart {
 }
 main .best-sells-flowers .cart img {
     width: 100%;
+    margin-bottom: 18px;
 }
 main .best-sells-flowers a {
     display: block;
@@ -149,7 +150,6 @@ main .best-sells-flowers a {
     color: black;
     font-size: 16px;
     font-weight: 800;
-    margin: 18px 0 0 0;
 }
 main .best-sells-flowers button {
     font-size: 13px;
@@ -261,12 +261,6 @@ footer .flw {
 footer .shp {
     color: #fff;
 }
-
-
-
-
-
-
 
 
 /* https://sohel5g.github.io/flower-shop/ */
