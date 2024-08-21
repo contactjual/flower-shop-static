@@ -4,7 +4,9 @@
         font-size: 18px;
         line-height: 25px;
     }
-    main h1, footer h1 {
+
+    main h1,
+    footer h1 {
         font-size: 26px;
     }
 
@@ -12,10 +14,12 @@
     header .flex-style {
         height: 450px;
     }
+
     header h1 {
         font-size: 37px;
         line-height: 45px;
-    } 
+    }
+
     header .flower-area img {
         width: 320px;
     }
@@ -25,19 +29,23 @@
         height: 300px;
         width: 20vw;
     }
+
     .featured-flowers .flower-tree div a {
         font-size: 15px;
     }
+
     .featured-flowers .flower-tree .first-tree div {
         background-size: 180px auto;
     }
+
     .featured-flowers .flower-tree .second-tree div {
         background-size: 230px auto;
     }
+
     .featured-flowers .flower-tree .third-tree div {
         background-size: 200px auto;
     }
-}    
+}
 
 
 
@@ -47,6 +55,7 @@
         max-width: 90%;
         margin: 0 auto;
     }
+
     p {
         font-size: 16px;
         line-height: 23px;
@@ -57,13 +66,154 @@
         height: 220px;
         width: 27vw;
     }
+
     .featured-flowers .flower-tree .first-tree div {
         background-size: 130px auto;
     }
+
     .featured-flowers .flower-tree .second-tree div {
         background-size: 170px auto;
     }
+
     .featured-flowers .flower-tree .third-tree div {
         background-size: 150px auto;
+    }
+}
+
+
+
+/* mobile-view */
+@media screen and (max-width: 600px) {
+    p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    main h1,
+    footer h1 {
+        font-size: 21px;
+        margin-bottom: 5px;
+    }
+    button {
+        border-radius: 6px;
+        font-size: 15px;
+        padding: 9px 15px;
+    }
+
+
+    /* header-banner */
+    header .banner-area .flower-area {
+        display: none;
+    }
+    header .banner-area {
+        background-color: rgba(88, 26, 39, 0.884);
+        background-image: url(img/pngwing\ 10.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-blend-mode: darken;
+        color: rgb(226, 226, 226);
+    }
+    header .text-area {
+        flex-basis: 90%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    header h1 {
+        font-size: 30px;
+        font-weight: 800;
+        line-height: 40px;
+        margin-bottom: 20px;
+    }
+
+    /* Our Featured Flowers */
+    main .featured-flowers .text-area {
+        max-width: 90%;
+        margin: 100px auto;
+        margin-bottom: 50px;
+    }
+    main .container .featured-flowers .flower-tree {
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        gap: 40px;
+    }
+    .featured-flowers .flower-tree .bgim {
+        height: 300px;
+        width: 200px;
+    }
+    .featured-flowers .flower-tree .first-tree div {
+        background-size: 180px auto;
+    }
+    .featured-flowers .flower-tree .second-tree div {
+        background-size: 200px auto;
+    }
+    .featured-flowers .flower-tree .third-tree div {
+        background-size: 180px auto;
+    }
+
+    /* Customer Support */
+    main .customer-support {
+        gap: 40px;
+        flex-direction: column;
+    }
+    main .customer-support p {
+        font-size: 14px;
+    }
+
+    /* Best Sells Flowers */
+    main .best-sells-flowers .cart {
+        flex-direction: column;
+    }
+    main .best-sells-flowers .cart .flw-card {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    /* Hot Deal */
+    main .hot-deal {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    main .back-color {
+        padding: 20px;
+    }
+    main .hot-deal img {
+        width: 60%;
+        padding: 10px 0;
+    }
+
+    /* Instagram */
+    main .instagram .text-area {
+        width: 85%;
+    }
+    main .instagram .beautiful-img {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+        margin-bottom: 20px;
+    }
+    main .instagram .beautiful-img img {
+        width: 60%;
+    }
+
+    /* Get The Latest Deals */
+    main .latest-deals {
+        background-size: cover;
+        min-height: 300px;
+    }
+    main .latest-deals form input {
+        width: 200px;
+        height: 30px;
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    /* footer */
+    footer {
+        padding: 50px 0;
+    }
+    footer .footer-text p {
+        font-size: 15px;
+        line-height: 25px;
     }
 }
